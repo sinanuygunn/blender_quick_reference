@@ -35,6 +35,7 @@ install('pillow')
 install('requests')
 install('numpy')
 install('pywin32')
+```
 
 ## Usage
 
