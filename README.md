@@ -1,6 +1,6 @@
 # Blender Quick Reference Add-on
 
-The Blender Quick Reference add-on is designed to streamline the process of importing images from your clipboard directly into Blender as reference images. This add-on supports copying images directly from any browser via right-click and pasting them into Blender, as well as pasting links from the clipboard to import the corresponding images.
+This Add-on is designed to streamline the process of importing images from your clipboard directly into Blender as reference images. This add-on supports copying images directly from any browser via right-click and pasting them into Blender, as well as pasting links from the clipboard to import the corresponding images.
 
 ## Features
 
