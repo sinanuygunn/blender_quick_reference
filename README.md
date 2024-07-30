@@ -16,6 +16,26 @@ This Add-on is designed to streamline the process of importing images from your 
 4. Click `Install` and select the downloaded ZIP file.
 5. Enable the add-on from the list.
 
+### Prerequisites
+
+Before installing the add-on, you need to ensure that the required Python packages are installed in Blender's Python environment. Run the following script in Blender's Python console:
+
+```python
+import subprocess
+import sys
+
+def install(package):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+        print(f"Successfully installed {package}.")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to install {package}: {e}")
+
+install('pillow')
+install('requests')
+install('numpy')
+install('pywin32')
+
 ## Usage
 
 1. Copy an image or image link from your browser.
