@@ -10,9 +10,9 @@ import io
 
 dataUsingChromium = False
 
-# Panodaki resmi almak için
+
 def get_clipboard_image_chromium():
-    # Resmi panodan al
+    # img
     image = ImageGrab.grabclipboard()
     if image is None:
         return None
