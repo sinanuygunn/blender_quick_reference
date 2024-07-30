@@ -6,7 +6,7 @@
 # Requires 'pywin32', 'requests', 'numpy', 'pillow' libraries in Blender's Python environment.
 # Installation:
 #  1. Download the repository as a zip file and extract it to the Blender addons folder (or simply go to preferences and add the addon.).
-#  2. If the required libraries are not installed, install it manually.
+#  2. If the required libraries are not installed, install them manually.
 #  3. Enable the addon in 'User Preferences > Addons > Quick Reference'.
 # Location: View3D > Add > Image
 # Category: Import-Export
