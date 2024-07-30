@@ -22,4 +22,5 @@ This Add-on is designed to streamline the process of importing images from your 
 3. Use the add-on to paste the image or link as a reference.
 
 Once installed, the add-on will be available in the View3D > Add > Image (CTRL + A > Image).
-
+![Screenshot](https://github.com/sinanuygunn/blender_quick_reference/blob/main/screenshots/Screenshot.png)
+![Screenshot2](https://github.com/sinanuygunn/blender_quick_reference/blob/main/screenshots/Screenshotcat.png)
