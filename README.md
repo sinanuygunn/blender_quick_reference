@@ -39,6 +39,8 @@ install('numpy')
 install('pywin32')
 ```
 
+**NOTE: After entering and running this script in the Blender scripting console, Blender may be briefly unresponsive. Please wait for it to respond and for the process to complete.**
+
 ## :rocket: Usage
 
 1. Copy an image or image link from your browser.
