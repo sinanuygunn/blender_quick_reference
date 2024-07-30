@@ -50,6 +50,6 @@ Once installed, the add-on will be available in the View3D > Add > Image (CTRL +
 
 ## Supported Platforms
 
-This project has been tested only on Windows. It has not been tested on other platforms (macOS, Linux, etc.), and it is likely that it will not work on these platforms.
+This Add-on has been tested only on Windows. It has not been tested on other platforms (macOS, Linux, etc.), and it is likely that it will not work on these platforms.
 
 
