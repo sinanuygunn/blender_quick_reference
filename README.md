@@ -48,7 +48,7 @@ Once installed, the add-on will be available in the View3D > Add > Image (CTRL +
 ![Screenshot](https://github.com/sinanuygunn/blender_quick_reference/blob/main/screenshots/Screenshot.png)
 ![Screenshot2](https://github.com/sinanuygunn/blender_quick_reference/blob/main/screenshots/Screenshotcat2.png)
 
-## :laptop: Supported Platforms
+## :computer: Supported Platforms
 
 This Add-on has been tested only on Windows. It has not been tested on other platforms (macOS, Linux, etc.), and it is likely that it will not work on these platforms.
 
