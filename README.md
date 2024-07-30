@@ -52,4 +52,9 @@ Once installed, the add-on will be available in the View3D > Add > Image (CTRL +
 
 This Add-on has been tested only on Windows. It has not been tested on other platforms (macOS, Linux, etc.), and it is likely that it will not work on these platforms.
 
+## Tested Browsers
+
+This project has been tested on Chrome and Firefox. Other browsers have not been tested, but it is likely to work on them as well.
+
+
 
