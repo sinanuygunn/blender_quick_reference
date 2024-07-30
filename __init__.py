@@ -6,7 +6,7 @@
 # Requires 'pywin32', 'requests', 'numpy', 'pillow' libraries in Blender's Python environment.
 # Installation:
 #  1. Download the repository as a zip file and extract it to the Blender addons folder (or simply go to preferences and add the addon.).
-#  2. If the required libraries are not installed, they will be automatically installed.
+#  2. If the required libraries are not installed, install it manually.
 #  3. Enable the addon in 'User Preferences > Addons > Quick Reference'.
 # Location: View3D > Add > Image
 # Category: Import-Export
@@ -27,28 +27,16 @@ bl_info = {
     ),
     "location": "View3D > Add > Image",
     "category": "Import-Export",
+    "doc_url": "https://github.com/sinanuygunn/blender_quick_reference",
+    "support": "COMMUNITY",
 }
+
 
 import bpy
 from . import ops
-import sys
-import os
-import subprocess
 
-# check if 'pywin32', 'requests', 'numpy', 'pillow' libraries are installed
-try:
-    import win32clipboard
-    import requests
-    import numpy
-    import PIL
-except:
-    python_exe = os.path.join(sys.prefix, 'bin', 'python.exe')
-    # install required packages
-    python_exe = os.path.join(sys.prefix, 'bin', 'python.exe')
-    subprocess.call([python_exe, "-m", "pip", "install", "pywin32"])
-    subprocess.call([python_exe, "-m", "pip", "install", "requests"])
-    subprocess.call([python_exe, "-m", "pip", "install", "numpy"])
-    subprocess.call([python_exe, "-m", "pip", "install", "pillow"])
+
+
 
 def register():
     # register the addon
