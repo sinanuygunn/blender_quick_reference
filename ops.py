@@ -6,6 +6,11 @@ from PIL import Image as PILImage
 from .utils import download_image, create_image_from_data
 import io
 
+# delete temp image if user uses chromium browser.
+def delete_temp_file(file_path):
+    if os.path.exists(file_path):
+        os.remove(file_path)
+
 # Define the operator class
 class OBJECT_OT_add_clipboard_image_as_reference(bpy.types.Operator):
     # Define the operator properties
@@ -38,6 +43,8 @@ class OBJECT_OT_add_clipboard_image_as_reference(bpy.types.Operator):
                 empty.empty_display_type = 'IMAGE'
                 empty.data = imageWithSaved
                 empty.rotation_euler[0] = 3.141592653589793 # 180 degrees (pi)
+                if data['chromium'] == True:
+                    delete_temp_file(image_path)
             else:
                 self.report({'WARNING'}, "File does not exist.")
 
