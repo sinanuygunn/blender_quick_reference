@@ -23,4 +23,4 @@ This Add-on is designed to streamline the process of importing images from your 
 
 Once installed, the add-on will be available in the View3D > Add > Image (CTRL + A > Image).
 ![Screenshot](https://github.com/sinanuygunn/blender_quick_reference/blob/main/screenshots/Screenshot.png)
-![Screenshot2](https://github.com/sinanuygunn/blender_quick_reference/blob/main/screenshots/Screenshotcat.png)
+![Screenshot2](https://github.com/sinanuygunn/blender_quick_reference/blob/main/screenshots/Screenshotcat2.png)
