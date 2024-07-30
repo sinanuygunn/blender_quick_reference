@@ -18,7 +18,7 @@ This Add-on is designed to streamline the process of importing images from your 
 
 ### Prerequisites
 
-Before installing the add-on, you need to ensure that the required Python packages are installed in Blender's Python environment. Run the following script in Blender's Python console:
+Before installing the add-on, you need to ensure that the required Python packages are installed in Blender's Python environment. Run the following script in Blender's Python console and `restart blender`.:
 
 ```python
 import subprocess
