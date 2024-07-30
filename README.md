@@ -18,5 +18,8 @@ The Blender Quick Reference add-on is designed to streamline the process of impo
 
 ## Usage
 
+1. Copy an image or image link from your browser.
+3. Use the add-on to paste the image or link as a reference.
+
 Once installed, the add-on will be available in the View3D > Add > Image (CTRL + A > Image).
 
