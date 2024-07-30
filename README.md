@@ -12,9 +12,11 @@ This Add-on is designed to streamline the process of importing images from your 
 
 1. Download the repository as a ZIP file.
 2. Open Blender.
-3. Go to `Edit` > `Preferences` > `Add-ons`.
-4. Click `Install` and select the downloaded ZIP file.
-5. Enable the add-on from the list.
+3. Open Scripts, run the code below.
+4. Restart Blender.
+5. Go to `Edit` > `Preferences` > `Add-ons`.
+6. Click `Install` and select the downloaded ZIP file.
+7. Enable the add-on from the list.
 
 ### Prerequisites
 
